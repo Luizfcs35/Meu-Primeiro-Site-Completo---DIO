@@ -1,0 +1,316 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "EncodeSans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  width: auto;
+  font-size: 12px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+/*------MENU LATERAL---------*/
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  float: left;
+  width: 150px;
+  height: 100vh;
+  background-color: DarkGreen;
+  box-shadow: 5px 5px 7px 0 rgba(50, 50, 50, 0.22);
+}
+
+.menu-links a {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  color: lightgreen;
+}
+
+.menu-links span {
+  padding: 15px 5px;
+}
+
+.link a:hover {
+  color: white;
+  background-color: forestgreen;
+  transition: all ease-in 0.5s;
+  box-shadow: 0px 3px 3px rgb(46, 46, 46, 0.5);
+}
+
+.link:hover .icon {
+  color: yellowgreen;
+}
+
+.logo img {
+  width: 50px;
+}
+/*------CABEÇALHO---------*/
+.header {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+}
+
+.image-header {
+  position: absolute;
+  z-index: -1;
+  zoom:79%;
+  filter: blur(1.5px);
+  transform: scaleX(1);
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+.logo span {
+  color: aliceblue;
+  font-weight: bold;
+}
+.logo h4 {
+  color: limegreen;
+}
+
+.logo img {
+  width: 50px;
+}
+
+/*------ PRINCIPAL---------*/
+.content {
+  margin-left: 150px;
+  padding: 20px 100px;
+  background-color: aliceblue;
+}
+
+.content h1 {
+  font-size: 2em;
+  color: limegreen;
+  padding: 25px 0;
+  text-align-last: center;
+}
+
+.content p {
+  color: midnightblue;
+  font-size: 1.5em;
+  margin: 0 auto;
+  text-align: center;
+  word-spacing: 5px;
+  padding: 25px 0;
+}
+
+/*-----------------ENDERECO-------------*/
+.endereco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: limegreen;
+  padding: 20px;
+}
+
+.endereco h1 {
+  align-items: center;
+  justify-content: center;
+  color: forestgreen;
+}
+.endereco h2 {
+  color: forestgreen;
+  font-size: 1.5em;
+}
+
+.detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail span {
+  padding: 5px;
+}
+.detail p {
+  padding: 5px;
+  font-size: 1em;
+  font-weight: 700;
+  word-spacing: 1px;
+}
+.telefone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.telefone p {
+  font-size: 1.2em;
+  padding: 5px;
+}
+.telefone .whats,
+.tell {
+  color: #a7a9ab;
+  width: 20px;
+  padding: 5px;
+}
+
+
+
+/*----------localização--------------*/
+.localize {  
+  padding: 25px 0;
+  background-color: aliceblue;
+}
+.localize iframe {
+  margin-left: 150px;
+  width: 90%;
+  padding: 5px 10px;
+}
+
+/*--------FORMULARIO-----------*/
+.contato {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  background-color: aliceblue;
+  padding: 20px 150px;
+  margin-left: 150px;
+}
+.contato .img-contato {
+  object-fit: contain;
+  padding: 10px;
+}
+
+.contato legend {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+  color: aliceblue;
+  font-size: 2em;
+}
+.contato form {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: royalblue;
+  border-radius: 15px;
+}
+
+.contato form label {
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.contato form input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid Darkgreen;
+}
+
+.contato form textarea {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid Darkgreen;
+}
+
+.contato .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.contato .enviar {
+  color:darkgreen;
+  background-color: limegreen;
+  padding: 10px 25px;
+  border-radius: 7px;
+  border: none;
+  
+}
+.contato .limpar {
+  color:royalblue;
+  background-color: blue;
+  padding: 10px 25px;
+  border-radius: 7px;
+  border:none;
+}
+
+
+.buttons:hover .enviar{
+  background-color: darkgreen;
+  color:aliceblue;
+  border: 1px solid aliceblue;
+  transition: ease-out 0.5s;
+}
+
+.buttons:hover .limpar {
+  background-color:  midnightblue;
+  color:aliceblue;
+  border: 1px solid aliceblue;
+  transition: ease-out 0.5s;
+}
+/*----- FOOTER -------*/
+footer {
+  width: 100%;
+  background-color: green;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10%;
+}
+
+.leis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.leis li,
+a {
+  color: aliceblue;
+  padding: 5px;
+}
+.footer-container .leis li:hover a {
+  transition: ease ease-in-out 0.5s;
+  color: midnightblue;
+}
+
+footer .direitos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 150px;
+  color: aliceblue;
+  padding: 10px 0;
+  border-top: 2px solid lightgreen;
+}
+
+footer .rede {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .rede img {
+  width: 30px;
+  padding: 5px 15px;
+}

@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "EncodeSans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  width: auto;
+  font-size: 12px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+/*------MENU LATERAL---------*/
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  float: left;
+  width: 150px;
+  height: 100vh;
+  background-color: DarkGreen;
+  box-shadow: 5px 5px 7px 0 rgba(50, 50, 50, 0.22);
+}
+
+.menu-links a {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  color: lightgreen;
+}
+
+.menu-links span {
+  padding: 15px 5px;
+}
+
+.link a:hover {
+  color: white;
+  background-color: forestgreen;
+  transition: all ease-in 0.5s;
+  box-shadow: 0px 3px 3px rgb(46, 46, 46, 0.5);
+}
+
+.link:hover .icon {
+  color: yellowgreen;
+}
+
+.logo img {
+  width: 50px;
+}
+
+/*------CABEÇALHO---------*/
+.header {
+  display: flex;
+  padding: 5px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+}
+
+.image-header {
+  position: absolute;
+  top: -10%;
+  zoom: 87%;
+  z-index: -1;
+  filter: blur(1px);
+  transform: scaleX(-1);
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+}
+.logo span {
+  color: aliceblue;
+  font-weight: bold;
+}
+.logo h4 {
+  color: limegreen;
+}
+
+/*------ PRINCIPAL---------*/
+.content {
+  margin-left: 150px;
+  padding: 20px 100px;
+  background-color: aliceblue;
+}
+
+.content h1 {
+  font-size: 2em;
+  color: limegreen;
+  padding: 25px 0;
+  text-align-last: center;
+}
+
+.content p,
+q {
+  display: flex;
+  color: midnightblue;
+  font-size: 1.5em;
+  margin: 0 auto;
+  word-spacing: 10px;
+  padding: 25px 0;
+}
+
+/*-------PLANOS--------*/
+.plans {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.plans-card .money {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
+.plans h2 {
+  font-size: 1.5em;
+  color: royalblue;
+}
+
+.plans p {
+  font-size: 3em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: gray;
+}
+.plans span {
+  font-size: 3.5em;
+  color: darkgreen;
+}
+.plans-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 30px;
+  padding: 10px;
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+  background: #fafafa;
+  box-shadow: 10px 10px 4px gray, 10px 10px 4px whitesmoke;
+}
+
+.plans-card:hover.plans-card {
+  border-radius: 20px;
+  background: linear-gradient(315deg, lightblue, whitesmoke);
+  box-shadow: -6px -6px 12px gray, 6px 6px 12px whitesmoke;
+  transition: all 0.5s;
+  transform: translateX(-10px);
+}
+
+.plans-card .more {
+  border: none;
+  color: aliceblue;
+  background-color: rebeccapurple;
+  padding: 15px 15px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px grey;
+}
+/*-------ESPECIALIZAÇÔES--------*/
+
+.special {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+.special .special-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 100px;
+  margin: 15px 30px;
+  padding: 10px;
+  color: blueviolet;
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+  box-shadow: 6px 6px 10px gray;
+  border-radius: 15px;
+}
+.special .special-card h2 {
+  font-size: 1.5em;
+}
+.special .special-card:hover {
+  transition: all 0.5s;
+  transform: translateY(-10px);
+}
+/*------FUNCIONAMENTO-------*/
+.horario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+  padding: 15px 10px;
+  background-color: aliceblue;
+}
+.horario h4 {
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: midnightblue;
+  padding: 25px;
+}
+.horario p {
+  font-size: 1.5em;
+  color: royalblue;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+.horario table {
+  display: table;
+  height: 500px;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.horario table th {
+  padding: 15px 0;
+  font-size: 1.5em;
+  background-color: midnightblue;
+  color: aliceblue;
+}
+.horario table td {
+  padding: 15px 0;
+  font-size: 1.5em;
+  background-color: lightgreen;
+}
+.horario tfoot td {
+  background-color: royalblue;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+.horario tr:hover td {
+  color: aliceblue;
+  background-color: darkgreen;
+}
+
+/*----- FOOTER -------*/
+footer {
+  width: 100%;
+  background-color: green;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10%;
+}
+
+.leis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.leis li,
+a {
+  color: aliceblue;
+  padding: 5px;
+}
+.footer-container .leis li:hover a {
+  transition: ease ease-in-out 0.5s;
+  color: midnightblue;
+}
+
+footer .direitos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 150px;
+  color: aliceblue;
+  padding: 10px 0;
+  border-top: 2px solid lightgreen;
+}
+
+footer .rede {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .rede img {
+  width: 30px;
+  padding: 5px 15px;
+}
