@@ -30,7 +30,7 @@ Além de outros recursos falados nas aulas!
 
 Enfim foi feito alterações e muitas adições, embora aprendendo alguns conceitos ainda de git, pois não conseguir trabalhar pausadamente com este projetinho e subir de forma correta cada commit.
 
-## Projeto finalizado:##
+## Projeto finalizado: ##
 - HTML semântico e CSS.
 - Versão somente para Desktop  s/ responsividade.
 
