@@ -35,5 +35,5 @@ Enfim foi feito alterações e muitas adições, embora aprendendo alguns concei
 - Versão somente para Desktop  s/ responsividade.
 
 ### Link do Projeto ###
-[Meu-Primeiro-Site-Completo](https://luizfcs35.github.io/Meu-Primeiro-Site-Completo---DIO/contact.html).
+[Meu-Primeiro-Site-Completo](https://luizfcs35.github.io/Meu-Primeiro-Site-Completo---DIO/index.html).
 
