@@ -27,3 +27,13 @@ Além de outros recursos falados nas aulas!
 
 3. Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
 4. Mais informações, clique no link do repositório...
+
+Enfim foi feito alterações e muitas adições, embora aprendendo alguns conceitos ainda de git, pois não conseguir trabalhar pausadamente com este projetinho e subir de forma correta cada commit.
+
+## Projeto finalizado:##
+- HTML semântico e CSS.
+- Versão somente para Desktop  s/ responsividade.
+
+### Link do Projeto ###
+[Meu-Primeiro-Site-Completo](https://luizfcs35.github.io/Meu-Primeiro-Site-Completo---DIO/contact.html).
+
